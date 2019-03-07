@@ -1,0 +1,16 @@
+<section class="main" data-ng-class="[main.SharedData.viewState, main.SharedData.gridState]">
+    <career-portal-modal data-ng-show="main.SharedData.modalState === 'open'"></career-portal-modal>
+
+    <career-portal-header></career-portal-header>
+
+    <section class="portal">
+        <div class="portal-canvas">
+            <career-portal-sidebar></career-portal-sidebar>
+
+            <section class="main">
+                <section class="fade" data-ui-view></section>
+                <div id="mask" class="mask" data-ng-click="main.closeFilters();"></div>
+            </section>
+        </div>
+    </section>
+</section>

@@ -1,0 +1,57 @@
+<div class="header-container">
+    <header class="app">
+        <div class="logo-container">
+            <img src="../../assets/images/Aegis-worldwide-logo.png" alt="Aegis Worldwide">
+            <div class="profile-login-wrap" ng-show="header.currentWidth > 480">
+                <span class="profile-header">My Aegis Profile</span>
+                <div class="login-button-wrap">
+                    <a href="http://teamaegis.com/job-seekers/register/"><img src="http://teamaegis.com/wp-content/themes/aegistheme/images/register-button.png" alt="Register" class="hover-image" hover="http://teamaegis.com/wp-content/themes/aegistheme/images/register-button_over.png"></a>
+                    <a href="http://teamaegis.com/job-seekers/my-profile/"><img class="hover-image" hover="http://teamaegis.com/wp-content/themes/aegistheme/images/login-button_over.png" src="http://teamaegis.com/wp-content/themes/aegistheme/images/login-button.png" alt="Login"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+            <div ng-click="header.isMenuOpen=!header.isMenuOpen">
+                <a href="" id="menu-header" ng-show="header.currentWidth < 768">Menu</a>
+                <ul ng-show="header.isMenuOpen || header.currentWidth > 767" id="menu-main" class="menu">
+                    <li id="menu-item-66" ng-mouseenter="header.hover='menu-item-66'" ng-mouseleave="header.hover=''">
+                        <a href="/about-aegis-worldwide/the-aegis-advantage/">About Us</a>
+                        <ul class="sub-menu" ng-show="header.hover==='menu-item-66' && header.currentWidth > 767">
+                            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://teamaegis.com/about-aegis-worldwide/the-aegis-advantage/">The Aegis Advantage</a></li>
+                            <li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="http://teamaegis.com/about-aegis-worldwide/candidate-placement-map/">Placement Map</a></li>
+                            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://teamaegis.com/about-aegis-worldwide/our-philosophy/">Our Philosophy</a></li>
+                            <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="http://teamaegis.com/about-aegis-worldwide/aegis-gives-back/">Aegis Gives Back</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-263" ng-mouseenter="header.hover='menu-item-263'" ng-mouseleave="header.hover=''">
+                        <a href="/employers/when-to-use-a-recruiter/">Employers</a>
+                        <ul class="sub-menu" ng-show="header.hover==='menu-item-263' && header.currentWidth > 767">
+                            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="http://teamaegis.com/job-seekers/types-of-placement/">Types of Placement</a></li>
+                            <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="http://teamaegis.com/job-seekers/areas-of-job-placement/">Areas of Job Placement</a></li>
+                            <li id="menu-item-854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-854"><a href="http://teamaegis.com/construction-property/">Construction &amp; Property</a></li>
+                            <li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="http://teamaegis.com/employers/when-to-use-a-recruiter/">When to use a Recruiter</a></li>
+                            <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://teamaegis.com/industries-served/">Industries Served</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-264" ng-mouseenter="header.hover='menu-item-264' && header.currentWidth > 767" ng-mouseleave="header.hover=''">
+                        <a href="/employers/types-of-placement/">Job Seekers</a>
+                        <ul class="sub-menu" ng-show="header.hover==='menu-item-264'">
+                            <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://teamaegis.com/job-seekers/search-jobs/">Search Jobs</a></li>
+                            <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="http://teamaegis.com/job-seekers/types-of-placement/">Types of Placement</a></li>
+                            <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="http://teamaegis.com/job-seekers/areas-of-job-placement/">Areas of Job Placement</a></li>
+                            <li id="menu-item-691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691"><a href="http://teamaegis.com/accounting-and-finance/">Accounting &amp; Finance</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="http://teamaegis.com/about-aegis-worldwide/client-testimonials/">Testimonials</a></li>
+                    <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://teamaegis.com/faqs/">FAQs</a></li>
+                    <li id="menu-item-689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="http://teamaegis.com/blog/">Blog</a></li>
+                    <li id="menu-item-690" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-690"><a href="http://teamaegis.com/category/news/">News</a></li>
+                    <li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400"><a href="http://teamaegis.com/about-aegis-worldwide/join-our-team/">Join Our Team</a></li>
+                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://teamaegis.com/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
